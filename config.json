@@ -1,0 +1,963 @@
+{
+  "theme": {
+    "name": "DashboardTheme",
+    "styles": [
+      "light",
+      "style3",
+      "default"
+    ],
+    "version": "2.11",
+    "sharedTheme": {
+      "isPortalSupport": true,
+      "useHeader": false,
+      "useLogo": false
+    }
+  },
+  "portalUrl": "http://carobiandrate.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "<div class=\"attribute-custom-style\"><font color=\"#2b4b6d\" face=\"Tahoma\">PLANEO</font></div>",
+  "subtitle": "Planificación Participativa",
+  "keepAppState": true,
+  "logo": "images/logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/DashboardTheme/widgets/Header/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 80,
+          "relativeTo": "browser"
+        },
+        "version": "2.11",
+        "visible": false,
+        "id": "themes_DashboardTheme_widgets_Header_Widget_20",
+        "name": "DashboardHeader"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 10,
+          "left": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_ZoomSlider_Widget_21",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 10,
+          "top": 80,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_HomeButton_Widget_22",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "position": {
+          "left": 10,
+          "top": 115,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "visible": false,
+        "id": "widgets_ExtentNavigate_Widget_23",
+        "name": "ExtentNavigate"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 10,
+          "top": 185,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "visible": false,
+        "id": "widgets_MyLocation_Widget_24",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "right": 10,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "visible": false,
+        "id": "widgets_Search_Widget_25",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 30,
+          "relativeTo": "map"
+        },
+        "visible": false,
+        "id": "widgets_Scalebar_Widget_26",
+        "name": "Scalebar",
+        "version": "2.11"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "visible": false,
+        "id": "widgets_Coordinate_Widget_27",
+        "name": "Coordinate"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.11",
+        "visible": false,
+        "id": "widgets_Splash_Widget_28",
+        "name": "Splash"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 0,
+          "top": 0,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "visible": false,
+        "id": "widgets_OverviewMap_Widget_29",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "version": "2.11",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "visible": false,
+        "id": "widgets_AttributeTable_Widget_30",
+        "name": "AttributeTable"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser",
+          "right": 25,
+          "bottom": 25
+        },
+        "version": "2.11",
+        "id": "widgets_FullScreen_Widget_31",
+        "name": "FullScreen"
+      },
+      {
+        "position": {
+          "left": 50,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_32",
+        "name": "LayerList",
+        "version": "2.11",
+        "closeable": true,
+        "uri": "widgets/LayerList/Widget",
+        "label": "Capas Alternativa 1 Castellana Norte"
+      },
+      {
+        "position": {
+          "left": 95,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_33",
+        "name": "Measurement",
+        "version": "2.11",
+        "closeable": true,
+        "uri": "widgets/Measurement/Widget",
+        "config": "configs/Measurement/config__33.json"
+      },
+      {
+        "position": {
+          "left": 140,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_34",
+        "version": "1.4",
+        "closeable": true,
+        "uri": "widgets/CaracteristicaCapas/Widget",
+        "name": "CaracteristicaCapas",
+        "IsController": true,
+        "config": "configs/CaracteristicaCapas/config__34.json"
+      },
+      {
+        "position": {
+          "left": 185,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_35",
+        "version": "1.4",
+        "closeable": true,
+        "uri": ""
+      },
+      {
+        "position": {
+          "left": 230,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 2,
+        "id": "_36"
+      }
+    ],
+    "groups": [
+      {
+        "id": "dd_group_9",
+        "widgets": [
+          {
+            "name": "Filter",
+            "label": "Votación Alternativas 1 y 2",
+            "version": "2.11",
+            "uri": "widgets/Filter/Widget",
+            "id": "widgets_Filter_Widget_37",
+            "config": "configs/Filter/config_widgets_Filter_Widget_37.json"
+          }
+        ],
+        "placeholderIndex": 1,
+        "visible": true,
+        "label": "Group 0",
+        "icon": "widgets/Filter/images/icon.png?wab_dv=2.11"
+      },
+      {
+        "id": "dd_group_11",
+        "widgets": [
+          {
+            "name": "Infographic",
+            "label": "Contador de Votos",
+            "version": "2.11",
+            "uri": "widgets/Infographic/Widget",
+            "id": "widgets_Infographic_Widget_41",
+            "config": "configs/Infographic/config_widgets_Infographic_Widget_41.json"
+          }
+        ],
+        "placeholderIndex": 1,
+        "visible": true,
+        "label": "Group 1",
+        "icon": "widgets/Infographic/images/icon.png?wab_dv=2.11"
+      },
+      {
+        "id": "dd_group_10",
+        "widgets": [
+          {
+            "name": "Infographic",
+            "label": "Usos de suelo",
+            "version": "2.11",
+            "uri": "widgets/Infographic/Widget",
+            "id": "widgets_Infographic_Widget_38",
+            "config": "configs/Infographic/config_widgets_Infographic_Widget_38.json"
+          }
+        ],
+        "placeholderIndex": 2,
+        "visible": true,
+        "label": "Group 2",
+        "icon": "widgets/Infographic/images/icon.png?wab_dv=2.11"
+      },
+      {
+        "id": "dd_group_5",
+        "widgets": [
+          {
+            "name": "InfoSummary",
+            "label": "Diferentes Viviendas",
+            "version": "2.11",
+            "IsController": false,
+            "uri": "widgets/InfoSummary/Widget",
+            "id": "widgets_InfoSummary_Widget_39",
+            "config": "configs/InfoSummary/config_widgets_InfoSummary_Widget_39.json"
+          }
+        ],
+        "placeholderIndex": 2,
+        "visible": true,
+        "label": "Group 4",
+        "icon": "widgets/InfoSummary/images/icon.png?wab_dv=2.11"
+      },
+      {
+        "id": "dd_group_6",
+        "widgets": [
+          {
+            "name": "Infographic",
+            "label": "Equipamiento Urbano Votado",
+            "version": "2.11",
+            "uri": "widgets/Infographic/Widget",
+            "id": "widgets_Infographic_Widget_42",
+            "config": "configs/Infographic/config_widgets_Infographic_Widget_42.json"
+          }
+        ],
+        "placeholderIndex": 1,
+        "visible": true,
+        "label": "Group 5",
+        "icon": "widgets/Infographic/images/icon.png?wab_dv=2.11"
+      },
+      {
+        "id": "dd_group_7",
+        "widgets": [
+          {
+            "name": "Infographic",
+            "label": "Votacion Ciudadanos",
+            "version": "2.11",
+            "uri": "widgets/Infographic/Widget",
+            "id": "widgets_Infographic_Widget_43",
+            "config": "configs/Infographic/config_widgets_Infographic_Widget_43.json"
+          }
+        ],
+        "placeholderIndex": 1,
+        "visible": true,
+        "label": "Group 6",
+        "icon": "widgets/Infographic/images/icon.png?wab_dv=2.11"
+      },
+      {
+        "id": "dd_group_8",
+        "widgets": [
+          {
+            "name": "Infographic",
+            "label": "Altura Media de  Edificios",
+            "version": "2.11",
+            "uri": "widgets/Infographic/Widget",
+            "id": "widgets_Infographic_Widget_40",
+            "config": "configs/Infographic/config_widgets_Infographic_Widget_40.json"
+          }
+        ],
+        "placeholderIndex": 4,
+        "visible": true,
+        "label": "Group 7",
+        "icon": "widgets/Infographic/images/icon.png?wab_dv=2.11"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "9f267d9b02e84952a56506181885d28d",
+    "mapOptions": {
+      "extent": {
+        "xmin": -414784.6668476206,
+        "ymin": 4932997.495605139,
+        "xmax": -402975.14597757685,
+        "ymax": 4941749.535343779,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "http://carobiandrate.maps.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.11",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 0
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.11",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 1
+      }
+    ],
+    "groups": [],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "mobileLayout": {
+    "layoutDefinition": {
+      "manager": "jimu/layoutManagers/GridLayoutManager",
+      "layout": {
+        "panel": {
+          "uri": "jimu/BaseWidgetPanel"
+        },
+        "config": {
+          "settings": {
+            "hasHeaders": true,
+            "showPopoutIcon": false,
+            "showMaximiseIcon": true,
+            "showCloseIcon": true
+          },
+          "content": [
+            {
+              "type": "column",
+              "isClosable": true,
+              "reorderEnabled": true,
+              "title": "",
+              "content": [
+                {
+                  "type": "row",
+                  "height": 33.3,
+                  "width": 100,
+                  "reorderEnabled": true,
+                  "title": "",
+                  "isClosable": true,
+                  "content": [
+                    {
+                      "id": "dd_group_1",
+                      "type": "stack",
+                      "reorderEnabled": true,
+                      "title": "",
+                      "width": 33.333333333333336,
+                      "activeItemIndex": 0,
+                      "isClosable": true,
+                      "content": []
+                    },
+                    {
+                      "id": "dd_group_2",
+                      "type": "stack",
+                      "reorderEnabled": true,
+                      "title": "",
+                      "width": 33.333333333333336,
+                      "activeItemIndex": 0,
+                      "isClosable": true,
+                      "content": []
+                    },
+                    {
+                      "id": "dd_group_3",
+                      "type": "stack",
+                      "reorderEnabled": true,
+                      "title": "",
+                      "width": 33.333333333333336,
+                      "activeItemIndex": 0,
+                      "isClosable": true,
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "row",
+                  "reorderEnabled": true,
+                  "height": 33.3,
+                  "width": 100,
+                  "title": "",
+                  "isClosable": true,
+                  "content": [
+                    {
+                      "id": "dd_group_4",
+                      "type": "stack",
+                      "reorderEnabled": true,
+                      "title": "",
+                      "width": 33.333333333333336,
+                      "activeItemIndex": 0,
+                      "isClosable": true,
+                      "content": []
+                    },
+                    {
+                      "id": "map",
+                      "type": "stack",
+                      "showTabs": false,
+                      "reorderEnabled": true,
+                      "title": "",
+                      "width": 33.333333333333336,
+                      "activeItemIndex": 0,
+                      "isClosable": true,
+                      "content": [
+                        {
+                          "type": "component",
+                          "componentName": "map",
+                          "title": "map",
+                          "isClosable": false,
+                          "reorderEnabled": true
+                        }
+                      ]
+                    },
+                    {
+                      "id": "dd_group_5",
+                      "type": "stack",
+                      "reorderEnabled": true,
+                      "title": "",
+                      "width": 33.333333333333336,
+                      "activeItemIndex": 0,
+                      "isClosable": true,
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "row",
+                  "height": 33.3,
+                  "width": 100,
+                  "reorderEnabled": true,
+                  "title": "",
+                  "isClosable": true,
+                  "content": [
+                    {
+                      "id": "dd_group_6",
+                      "type": "stack",
+                      "reorderEnabled": true,
+                      "title": "",
+                      "width": 33.333333333333336,
+                      "activeItemIndex": 0,
+                      "isClosable": true,
+                      "content": []
+                    },
+                    {
+                      "id": "dd_group_7",
+                      "type": "stack",
+                      "reorderEnabled": true,
+                      "title": "",
+                      "width": 33.333333333333336,
+                      "activeItemIndex": 0,
+                      "isClosable": true,
+                      "content": []
+                    },
+                    {
+                      "id": "dd_group_8",
+                      "type": "stack",
+                      "reorderEnabled": true,
+                      "title": "",
+                      "width": 33.333333333333336,
+                      "activeItemIndex": 0,
+                      "isClosable": true,
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "mobileLayout": {
+        "panel": {
+          "uri": "themes/DashboardTheme/panels/MobilePanel/Panel"
+        }
+      }
+    },
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/DashboardTheme/widgets/Header/Widget",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "height": 80,
+            "relativeTo": "browser"
+          },
+          "version": "2.4",
+          "visible": false
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "position": {
+            "right": 10,
+            "top": 10,
+            "relativeTo": "map"
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "inPanel": false,
+          "position": {
+            "right": 10,
+            "top": 80,
+            "relativeTo": "map"
+          },
+          "version": "2.11"
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "position": {
+            "right": 10,
+            "top": 115,
+            "relativeTo": "map"
+          },
+          "version": "2.11",
+          "visible": false
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "right": 10,
+            "top": 185,
+            "relativeTo": "map"
+          },
+          "version": "2.11",
+          "visible": false
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 50,
+            "top": 10,
+            "relativeTo": "map"
+          },
+          "version": "2.11",
+          "visible": false
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 7,
+            "bottom": 10,
+            "relativeTo": "map"
+          },
+          "visible": false
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 7,
+            "bottom": 10,
+            "relativeTo": "map"
+          },
+          "version": "2.4",
+          "visible": false
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.11",
+          "visible": false
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 0,
+            "bottom": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.11",
+          "visible": false
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "version": "2.11",
+          "position": {
+            "relativeTo": "browser"
+          },
+          "visible": false
+        },
+        {
+          "uri": "widgets/FullScreen/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser",
+            "right": 25,
+            "bottom": 25
+          },
+          "version": "2.11"
+        },
+        {
+          "position": {
+            "left": 50,
+            "top": 10,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 95,
+            "top": 10,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 140,
+            "top": 10,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 185,
+            "top": 10,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 230,
+            "top": 10,
+            "relativeTo": "map"
+          }
+        }
+      ],
+      "groups": [
+        {
+          "id": "dd_group_1",
+          "widgets": []
+        },
+        {
+          "id": "dd_group_2",
+          "widgets": []
+        },
+        {
+          "id": "dd_group_3",
+          "widgets": []
+        },
+        {
+          "id": "dd_group_4",
+          "widgets": []
+        },
+        {
+          "id": "dd_group_5",
+          "widgets": []
+        },
+        {
+          "id": "dd_group_6",
+          "widgets": []
+        },
+        {
+          "id": "dd_group_7",
+          "widgets": []
+        },
+        {
+          "id": "dd_group_8",
+          "widgets": []
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#2b4b6d",
+    "backgroundImage": {
+      "visible": true,
+      "uri": "configs/loading/images/background.jpeg",
+      "width": 1200,
+      "height": 992
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "/webappbuilder/apps/2/configs/loading/images/predefined_loading_3.gif",
+      "width": 32,
+      "height": 32
+    }
+  },
+  "wabVersion": "2.11",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {},
+    "settings": {}
+  },
+  "layoutDefinition": {
+    "manager": "jimu/layoutManagers/GridLayoutManager",
+    "layout": {
+      "panel": {
+        "uri": "jimu/BaseWidgetPanel"
+      },
+      "config": {
+        "settings": {
+          "hasHeaders": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": true,
+          "showCloseIcon": true
+        },
+        "content": [
+          {
+            "type": "column",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "row",
+                "reorderEnabled": true,
+                "height": 68.71428571428571,
+                "width": 100,
+                "title": "",
+                "isClosable": true,
+                "content": [
+                  {
+                    "type": "column",
+                    "reorderEnabled": true,
+                    "title": "",
+                    "width": 17.473118279569892,
+                    "isClosable": true,
+                    "content": [
+                      {
+                        "type": "stack",
+                        "reorderEnabled": true,
+                        "title": "",
+                        "id": "dd_group_9",
+                        "width": 22.222222222222225,
+                        "height": 50,
+                        "activeItemIndex": 0,
+                        "isClosable": true,
+                        "content": []
+                      },
+                      {
+                        "type": "stack",
+                        "reorderEnabled": true,
+                        "title": "",
+                        "id": "dd_group_11",
+                        "height": 50,
+                        "activeItemIndex": 0,
+                        "isClosable": true,
+                        "content": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "map",
+                    "type": "stack",
+                    "showTabs": false,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "width": 55.376344086021504,
+                    "activeItemIndex": 0,
+                    "isClosable": true,
+                    "content": [
+                      {
+                        "type": "component",
+                        "componentName": "map",
+                        "title": "",
+                        "isClosable": false,
+                        "reorderEnabled": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "column",
+                    "reorderEnabled": true,
+                    "title": "",
+                    "width": 27.150537634408607,
+                    "isClosable": true,
+                    "content": [
+                      {
+                        "type": "stack",
+                        "reorderEnabled": true,
+                        "title": "",
+                        "id": "dd_group_10",
+                        "height": 50,
+                        "activeItemIndex": 0,
+                        "isClosable": true,
+                        "content": []
+                      },
+                      {
+                        "id": "dd_group_5",
+                        "type": "stack",
+                        "reorderEnabled": true,
+                        "title": "",
+                        "width": 33.333333333333336,
+                        "activeItemIndex": 0,
+                        "height": 50,
+                        "isClosable": true,
+                        "content": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "row",
+                "height": 31.18571428571429,
+                "width": 100,
+                "reorderEnabled": true,
+                "title": "",
+                "isClosable": true,
+                "content": [
+                  {
+                    "id": "dd_group_6",
+                    "type": "stack",
+                    "reorderEnabled": true,
+                    "title": "",
+                    "width": 17.550124220242214,
+                    "activeItemIndex": 0,
+                    "isClosable": true,
+                    "content": []
+                  },
+                  {
+                    "id": "dd_group_7",
+                    "type": "stack",
+                    "reorderEnabled": true,
+                    "title": "",
+                    "width": 34.02575103924511,
+                    "activeItemIndex": 0,
+                    "isClosable": true,
+                    "content": []
+                  },
+                  {
+                    "id": "dd_group_8",
+                    "type": "stack",
+                    "reorderEnabled": true,
+                    "title": "",
+                    "width": 48.42412474051268,
+                    "activeItemIndex": 0,
+                    "isClosable": true,
+                    "content": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "mobileLayout": {
+      "panel": {
+        "uri": "themes/DashboardTheme/panels/MobilePanel/Panel"
+      }
+    }
+  },
+  "logoLink": ""
+}

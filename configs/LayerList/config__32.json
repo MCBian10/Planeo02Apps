@@ -1,0 +1,84 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": false,
+    "SetVisibilityRange": false,
+    "EnableOrDisablePopup": false,
+    "ControlLabels": false,
+    "MoveupOrMovedown": false,
+    "OpenAttributeTable": false,
+    "DescriptionOrShowItemDetailsOrDownload": false
+  },
+  "layerOptions": {
+    "dpap_educacion01_6983": {
+      "display": false
+    },
+    "survey123_27093cc648bf44bfbaf92d6661cdb6d5_4565": {
+      "display": false
+    },
+    "survey123_9fa3252de3484984bc93f3acf293cbbb_2717": {
+      "display": false
+    },
+    "91961e42d6294d47abb8a0c07b164684": {
+      "display": true
+    },
+    "530e37ccc72a4fadae9075ee2409241d": {
+      "display": true
+    },
+    "7f592f525c0242419805a9e241cc3499": {
+      "display": true
+    },
+    "6bde51e8f6e348369e3798c21fdcb839": {
+      "display": false
+    },
+    "b085f135416c4933b3c5fe5d9967483d": {
+      "display": true
+    },
+    "110c108eef8a4b0db70afb456ffbb7fa": {
+      "display": true
+    },
+    "35906b67bf7a49dd82475ceae025df49": {
+      "display": true
+    },
+    "0a076863bbd94e1ba9c862e413a75fde": {
+      "display": true
+    },
+    "538b98e3fda0486ea40022fb392731d4": {
+      "display": true
+    },
+    "63ad6c98db6a44be92640534c63c2eb6": {
+      "display": true
+    },
+    "93524c94d2f843a3a66454c02bd6ca2a": {
+      "display": true
+    },
+    "5003eddece034c9c87790143ff675b98": {
+      "display": true
+    },
+    "292d59affc8c4d91ae3626c32adfb134": {
+      "display": true
+    },
+    "2dd74a8607f648d183331d5f39595afc": {
+      "display": false
+    },
+    "f958eb31880f49c2a443243525e1fe58": {
+      "display": false
+    },
+    "fa8c4ea3790b4759a252a5018459a680": {
+      "display": false
+    },
+    "survey123_27093cc648bf44bfbaf92d6661cdb6d5_fieldworker_5477": {
+      "display": true
+    },
+    "survey123_27093cc648bf44bfbaf92d6661cdb6d5_fieldworker_7208": {
+      "display": true
+    },
+    "survey123_9fa3252de3484984bc93f3acf293cbbb_8333": {
+      "display": true
+    }
+  }
+}

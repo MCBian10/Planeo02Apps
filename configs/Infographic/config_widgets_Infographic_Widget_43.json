@@ -1,0 +1,178 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 76.30662020905923,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "25362056213267103-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "25362056213267103-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "height": 23.69337979094077,
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "id": "25362056213267103-3",
+                "type": "component",
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "25362056213267103-3"
+                },
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "jimu grid"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "25362056213267103-1",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "TITLE OF THE INFOGRAPHIC"
+      }
+    },
+    {
+      "id": "25362056213267103-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "count",
+        "type": "bar",
+        "categoryField": "considera_que_la_altura_de_los_",
+        "dateConfig": null,
+        "sortOrder": {
+          "isAsc": true,
+          "isLabelAxis": true
+        },
+        "maxLabels": "",
+        "backgroundColor": "#fff",
+        "seriesStyle": {
+          "styles": [
+            {
+              "style": {
+                "color": [
+                  "#4584ad"
+                ]
+              },
+              "name": "count~count",
+              "label": "count~count"
+            }
+          ],
+          "type": "series"
+        },
+        "legend": {
+          "show": false,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          }
+        },
+        "xAxis": {
+          "show": true,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          },
+          "nameTextStyle": {
+            "color": "#000"
+          }
+        },
+        "yAxis": {
+          "show": false,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          },
+          "nameTextStyle": {
+            "color": "#000"
+          }
+        },
+        "marks": {}
+      }
+    },
+    {
+      "id": "25362056213267103-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "bottom"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": "10",
+          "textColor": "#282828"
+        },
+        "text": "¿Considera que la altura de los edificios son adecuados para la zona?"
+      }
+    }
+  ],
+  "name": "bar",
+  "wid": "25362056213267103",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "EncuestaCiudadana",
+    "layerId": "survey123_27093cc648bf44bfbaf92d6661cdb6d5_5253",
+    "useSelection": true,
+    "filterByExtent": "on"
+  }
+}

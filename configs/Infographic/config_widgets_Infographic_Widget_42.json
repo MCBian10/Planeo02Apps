@@ -1,0 +1,214 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 81.8815331010453,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "7121049584463592-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "7121049584463592-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "height": 18.1184668989547,
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "id": "7121049584463592-3",
+                "type": "component",
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "7121049584463592-3"
+                },
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "jimu grid"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "7121049584463592-1",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "TITLE OF THE INFOGRAPHIC"
+      }
+    },
+    {
+      "id": "7121049584463592-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "count",
+        "type": "pie",
+        "categoryField": "que_dotaci_n_publica_le_parece_",
+        "dateConfig": null,
+        "sortOrder": {
+          "isAsc": true,
+          "isLabelAxis": false
+        },
+        "maxLabels": 100,
+        "backgroundColor": "#fff",
+        "seriesStyle": {
+          "styles": [
+            {
+              "style": {
+                "color": [
+                  "#5d9cd3",
+                  "#a5a5a5",
+                  "#4673c2",
+                  "#285f8f",
+                  "#636363",
+                  "#274577"
+                ]
+              },
+              "name": "pie~not-field",
+              "label": "pie~not-field"
+            }
+          ],
+          "type": "series",
+          "customColor": {
+            "categories": [
+              {
+                "id": "civica_social",
+                "text": "Civica Social",
+                "label": "Civica Social",
+                "color": "#C8501D"
+              },
+              {
+                "id": "deportiva",
+                "text": "Deportiva",
+                "label": "Deportiva",
+                "color": "#2DB7C6"
+              },
+              {
+                "id": "educacional",
+                "text": "Educacional",
+                "label": "Educacional",
+                "color": "#C4EEF6"
+              },
+              {
+                "id": "salud",
+                "text": "Salud",
+                "label": "Salud",
+                "color": "#68D2E0"
+              }
+            ],
+            "others": [
+              {
+                "uniqueID": "03319416262945141",
+                "text": "Null",
+                "label": "Null",
+                "color": "#808080",
+                "id": "null"
+              },
+              {
+                "uniqueID": "5418868769750593",
+                "text": "Others",
+                "label": "Others",
+                "color": "#808080",
+                "id": "others"
+              }
+            ]
+          }
+        },
+        "legend": {
+          "show": false,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          }
+        },
+        "dataLabel": {
+          "show": true,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 9
+          }
+        },
+        "innerRadius": 0
+      }
+    },
+    {
+      "id": "7121049584463592-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "bottom"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": "10",
+          "textColor": "#282828"
+        },
+        "text": "¿Que dotación publica le parece mas importante en este proyecto?"
+      }
+    }
+  ],
+  "name": "pie",
+  "wid": "7121049584463592",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "EncuestaCiudadana",
+    "layerId": "survey123_27093cc648bf44bfbaf92d6661cdb6d5_5253",
+    "useSelection": true,
+    "filterByExtent": "on"
+  }
+}
